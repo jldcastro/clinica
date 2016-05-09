@@ -26,6 +26,7 @@
                 <div class="form-group">
                     <p><input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="Ingrese Email"></p>
                 </div>
+
                 <div class="form-group">
                     <p><input type="password" class="form-control" name="password" value="" placeholder="Ingrese Contraseña"></p>
                 </div>
