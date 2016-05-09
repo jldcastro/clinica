@@ -6,19 +6,18 @@
 
 <section class="container">
 
-    @if (count($errors) > 0)
-        <div class="alert alert-danger">
-    	    <strong>Whoops!</strong> Hubo algunos problemas con tu entrada.<br><br>
-    		    <ul>
-    			    @foreach ($errors->all() as $error)
-    				<li>{{ $error }}</li>
-    				@endforeach
-    			</ul>
-    	</div>
-    @endif
-
-    <div class="login">
+     <div class="login">
             <h1>Registrar nuevo cliente</h1>
+            @if (count($errors) > 0)
+                    <div class="alert alert-danger">
+                	    <strong>Whoops!</strong> Hubo algunos problemas con tu entrada.<br><br>
+                		    <ul>
+                			    @foreach ($errors->all() as $error)
+                				<li>{{ $error }}</li>
+                				@endforeach
+                			</ul>
+                	</div>
+            @endif
                 <form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/register') }}">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
