@@ -1,0 +1,38 @@
+header{
+	width: 100%;
+	min-height: 10%;
+	height:15%;
+
+	position: relative;
+
+}
+
+.logo{
+	float: left;
+	height: 100%;
+}
+
+.credenciales{
+	position: absolute;
+	right: 25%;
+	bottom : 2%;
+}
+
+.kiltros{
+	position: absolute;
+	max-width: 23%;
+	height: auto;
+	right: 0%;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 640px) {
+	.credenciales{
+		right:2%;
+	}
+    .kiltros{
+        display:none;
+
+    }
+}

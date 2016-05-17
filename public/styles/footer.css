@@ -1,0 +1,12 @@
+footer{
+
+	width		: 85%;
+	height      : 5%;
+	position	: absolute;
+	bottom		: 0%;
+	left 	: 15%;
+}
+footer>p{
+	margin-top: 0.5em;
+	text-align: right;	
+}

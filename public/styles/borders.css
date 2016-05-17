@@ -1,0 +1,19 @@
+body{
+	border-radius: 10px;
+}
+
+aside{
+	border-right:3px inset green;
+}
+
+
+
+aside h4{
+
+	border-radius: 5px;
+}
+
+header{
+	border-bottom:3px inset green;
+}
+

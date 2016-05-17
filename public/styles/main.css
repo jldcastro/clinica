@@ -1,0 +1,21 @@
+main *{
+	
+}
+main{
+	width: 85%;
+	height: 80%;
+
+	position: absolute;
+	left: 15%;
+	padding: 1em;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 640px) {
+    main {
+        width: 100%;
+        left:0%;
+
+    }
+}

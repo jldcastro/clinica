@@ -1,0 +1,63 @@
+@media screen and (max-width: 640px) {
+    aside {
+        display: none;
+    }
+}
+
+
+aside{
+
+	float: left;
+	width: 15%;
+	height: 85%;
+
+}
+
+.lol{
+	margin:0;
+	border: 0; 
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 180, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+aside h4{
+	font-weight: bold;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+
+}
+
+aside ul{
+
+	width:100%;
+	list-style-type: none;
+
+}
+
+aside li{
+	font-size: 120%;
+	padding-left: 1em;
+	width:100%;
+	text-align: none;
+	padding-top:0.4em;
+	padding-bottom:0.4em;
+
+}
+
+aside li:hover{
+	background:none;
+	font-weight: bold;
+	font-style: italic;
+	color: green;
+}
+
+aside a{
+	text-decoration:none;
+	color: #333;
+}
+
+aside a:hover{
+	text-decoration:none;
+	color: green;
+}
